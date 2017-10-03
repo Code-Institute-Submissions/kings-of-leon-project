@@ -1,8 +1,12 @@
 body {
     font-family: Anton;
+    
 }
+
+/*--------------------------- Nav ---------------------------*/
+
 .navbar-inverse {
-	background-color:transparent!important;
+	background-color:rgba(70, 70, 70, .49)!important;
 	border-color:transparent;
 	background-image:none;
 	box-shadow:none;	
@@ -19,7 +23,35 @@ body {
    margin:40px 0;
 }
 
-/*--------- Home ---------*/
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color:transparent!important;
+}
+/*--------------------------- Footer ---------------------------*/
+
+#footer {
+    background-color: grey;
+}
+
+.social li a i {
+    width:32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius:  50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffffff;
+    background: #8f8f8f;
+     -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/*--------------------------- Homepage ---------------------------*/
 
 #bg-video {
     min-width: 100%;
@@ -28,6 +60,40 @@ body {
     height: auto;
     background-image: url("media/images/kol-bg.jpg");
     background-size: cover;
+    z-index: -1;
 }
 
+.card-size {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #888888;
+}
 
+.card {
+    margin-bottom: 20px;
+}
+
+.container-headings {
+    margin-bottom: 35px;
+}
+
+.media-container {
+    margin-bottom: 35px;
+}
+
+.tours-container {
+    background-color: #da98a1;
+    margin-bottom: 35px;
+}
+
+#overlay {
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+   
+}
+
+#tours-image {
+    width: 350px;
+    height: 350px;
+}
