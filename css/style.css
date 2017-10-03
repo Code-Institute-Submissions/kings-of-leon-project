@@ -1,0 +1,33 @@
+body {
+    font-family: Anton;
+}
+.navbar-inverse {
+	background-color:transparent!important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
+}
+
+.navbar-inverse .navbar-nav>li>a {
+   font-size:20px; 
+   color:#fff; 
+   text-align: center;
+   padding: 15px;
+}
+
+.navbar-nav { 
+   margin:40px 0;
+}
+
+/*--------- Home ---------*/
+
+#bg-video {
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height: auto;
+    background-image: url("media/images/kol-bg.jpg");
+    background-size: cover;
+}
+
+
