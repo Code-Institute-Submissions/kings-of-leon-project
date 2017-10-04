@@ -73,6 +73,11 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social li a i:hover {
+    color: #5a2c61;
+    background: #a6e1e9;
+}
+
 .footer-headings {
     color: #f5c7ca;
 }
@@ -155,16 +160,18 @@ video {
     background-color: #da98a1;
     margin-bottom: 35px;
     background: -webkit-linear-gradient(left top, #e1576c, #edb9bc);
+    padding-bottom: 35px;
 }
 
 #tours-image {
     width: 350px;
     height: 350px;
+    padding: 20px;
 }
 
 .tour-text {
-    background-color: rgba(234, 212, 215, 0.28);
-    border-radius: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 #media-header {
@@ -178,11 +185,11 @@ video {
 }
 
 #tour-header {
-    color: #464646; 
+    color: #ffffff; 
 }
 
 #tour-header:hover {
-   color: #5a2c61; 
+   color: #464646; 
    text-shadow: -1px 0 20px #ffffff, 0 1px 20px #ffffff, 1px 0 20px #ffffff, 0 -1px 20px #ffffff;
    text-decoration: none;
 }
@@ -199,4 +206,14 @@ video {
 
 #ul-nav {
     padding-left: 0px!important;
+}
+
+/*--------------------------- Media Queries ---------------------------*/
+
+@media (max-width: 768px) {
+
+  #overlay-text {
+  font-size: 70px;
+}
+
 }

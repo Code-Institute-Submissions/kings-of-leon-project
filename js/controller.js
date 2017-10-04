@@ -5,8 +5,8 @@ var KOLApp = angular.module('RouteControllers', [])
         })
         
     KOLApp.controller('MediaController', function($scope) {
-        $(".nav li a").on("click", function() {
-        $(".nav li a").removeClass("active");   
+        $(".nav li").on("click", function() {
+        $(".nav li").removeClass("active");   
         $(this).addClass("active");
     })
 
