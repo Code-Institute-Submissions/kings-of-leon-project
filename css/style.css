@@ -7,9 +7,15 @@ body {
 }
 
 .btn-primary {
-    color: #fff;
+    color: #ffffff;
     background-color: #5a2c61;
     border-color: #5a2c61;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e1576c;
+    border-color: #e1576c;
 }
 
 /*--------------------------- Nav ---------------------------*/
@@ -80,6 +86,14 @@ body {
 
 .footer-headings {
     color: #f5c7ca;
+}
+
+#footer-register-bt {
+    color: #f5c7ca;
+}
+
+#footer-register-bt:hover {
+    color: #a6e1e9;
 }
 
 /*--------------------------- Homepage ---------------------------*/
@@ -163,6 +177,10 @@ video {
     padding-bottom: 35px;
 }
 
+.about-container {
+    margin-bottom: 35px;
+}
+
 #tours-image {
     width: 350px;
     height: 350px;
@@ -172,6 +190,17 @@ video {
 .tour-text {
     padding-bottom: 15px;
     padding-top: 15px;
+}
+
+#tour-info-bt {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#tour-info-bt:hover {
+    color: #5a2c61;
+    
 }
 
 #media-header {
@@ -192,6 +221,33 @@ video {
    color: #464646; 
    text-shadow: -1px 0 20px #ffffff, 0 1px 20px #ffffff, 1px 0 20px #ffffff, 0 -1px 20px #ffffff;
    text-decoration: none;
+}
+
+#about-header {
+    color: #464646; 
+}
+
+#about-header:hover {
+   color: #a6e1e9; 
+   text-shadow: -1px 0 20px #5a2c61, 0 1px 20px #5a2c61, 1px 0 20px #5a2c61, 0 -1px 20px #5a2c61;
+   text-decoration: none;
+}
+
+#about-hp-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.about-span {
+    font-size: 25px;
+    color: #5a2c61;
+}
+
+.about-hp-text {
+    font-size: 16px;
+    line-height: 33px;
+    padding: 20px 0px;
 }
 
 /*--------------------------- Media ---------------------------*/
