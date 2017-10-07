@@ -3,8 +3,8 @@
 
 body {
     font-family: Anton;
-    
 }
+
 
 .btn-primary {
     color: #ffffff;
@@ -61,6 +61,7 @@ body {
 #footer {
     background-color: #464646;
     color: #ffffff;
+    padding-bottom: 10px;
 }
 
 .social li a i {
@@ -105,6 +106,7 @@ body {
     height: auto;
     background-size: cover;
     z-index: -1;
+    vertical-align: middle;
 }
 
 .bg-video-filter {
@@ -115,11 +117,6 @@ body {
   position: relative;
 }
 
-video {
-  height: auto;
-  vertical-align: middle;
-  width: 100%;
-}
 
 .overlay {
   background: rgba(0,0,0,0);
@@ -133,11 +130,11 @@ video {
 
 #overlay-text {
   color: #f5c7ca;
-  font-size: 100px;
+  font-size: 50px;
   text-align: center;
-  background-color:rgba(70, 70, 70, .49)!important;
+  text-shadow: -1px 0 20px #464646, 0 1px 20px #464646, 1px 0 20px #464646, 0 -1px 20px #464646;
   padding:5px;
-  border-radius: 5px;
+  letter-spacing: 10px;
 }
 
 .card-size {
@@ -254,6 +251,7 @@ video {
 
 .media-pg-container {
     margin-top: 140px!important;
+    margin-bottom: 35px;
 }
 
 .tab-content {
@@ -264,12 +262,45 @@ video {
     padding-left: 0px!important;
 }
 
+#gallery-thumbnail-img {
+    margin: 20px 0px;
+    width: 400px;
+    height: 200px;
+    box-shadow: 5px 5px 10px #888888;
+    padding: 0px;
+    border-radius: 10px;
+    border:0px;
+}
+
+.tab-title {
+    color: #5a2c61;
+    font-size: 20px;
+}
+
+
 /*--------------------------- Media Queries ---------------------------*/
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
   #overlay-text {
-  font-size: 70px;
+  font-size: 120px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
 }

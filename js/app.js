@@ -8,7 +8,7 @@ angular.module('KOLApp').config(function($locationProvider, $routeProvider) {
         controller: 'HomeController'
     })
     
-    .when('/media', {
+    .when('/multimedia', {
         templateUrl: 'templates/media.html',
         controller: 'MediaController'
     })
