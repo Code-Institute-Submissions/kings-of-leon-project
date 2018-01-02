@@ -1,24 +1,52 @@
 <div class="container media-pg-container">
-    <div class="row">
+    <h1 class="text-center container-headings" style="color: #5a2c61">MEDIA</h1>
+      <div class="row">
         <div class="col-xs-12">
             <ul class="nav nav-tabs nav-justified" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active tab-title" data-toggle="tab" href="#audio-tab" role="tab">AUDIO</a>
+                <a class="nav-link tab-title" data-toggle="tab" href="#audio-tab" role="tab">AUDIO</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link tab-title" data-toggle="tab" href="#gallery-tab" role="tab">GALLERY</a>
+                <a class="nav-link tab-title active" data-toggle="tab" href="#gallery-tab" role="tab">GALLERY</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link tab-title" data-toggle="tab" href="#video-tab" role="tab">VIDEO</a>
               </li>
             </ul>
+            
             <div class="tab-content">
-                <div class="tab-pane active" id="audio-tab" role="tabpanel">home</div>
+                <div class="tab-pane " id="audio-tab" role="tabpanel">
+                       <div class="container-fluid">
+                        <div class="row text-center">
+                            <h3>WALLS</h3>
+                            <hr>
+                            <div class="col-xs-12 audio-div">
+                                <audio controls="controls">
+                                  <source src="media/audio/Kings Of Leon - WALLS.mp3" type="audio/mpeg"/>
+                                </audio>
+                            </div>
+                            <h3>FIND ME</h3>
+                            <hr>
+                            <div class="col-xs-12 audio-div">
+                                <audio controls="controls">
+                                  <source src="media/audio/Kings Of Leon - Chapter 2 Find Me.mp3" type="audio/mpeg"/>
+                                </audio> 
+                            </div>
+                            <h3>AROUND THE WORLD</h3>
+                            <hr>
+                            <div class="col-xs-12 audio-div">
+                                <audio controls="controls">
+                                  <source src="media/audio/Kings Of Leon - Around The World.mp3" type="audio/mpeg"/>
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
-                <div class="tab-pane" id="gallery-tab" role="tabpanel">
+                <div class="tab-pane active" id="gallery-tab" role="tabpanel">
                     <div class="container-fluid">
                         <div class="row text-center">
-                            <div class="col-xs-12 col-sm-6 col-md-3" ng-repeat="image in gallery track by $index">
+                            <div class="col-xs-12 col-sm-6 " ng-repeat="image in gallery track by $index">
                                 <div class="img-fluid">
                                     <img src="{{ image }}" class="img-thumbnail" id="gallery-thumbnail-img">
                                 </div>
@@ -30,27 +58,27 @@
                 <div class="tab-pane" id="video-tab" role="tabpanel">
                     <div class="container-fluid">
                         <div class="row text-center">
-                            <div class="col-xs-12 embed-responsive embed-responsive-16by9">
-                                <video  controls="controls" muted>
-                                    <source src="media/videos/Kings Of Leon BGV.mp4" type="video/mp4"/>
+                            <h3>WALLS</h3>
+                            <hr>
+                            <div class="col-xs-12 video-div embed-responsive embed-responsive-16by9 ">
+                                <video class="media-video-container" controls="controls" muted>
+                                    <source src="media/videos/Kings Of Leon - WALLS.mp4" type="video/mp4"/>
                                 </video> 
                             </div>
-                            <div class="col-xs-12 embed-responsive embed-responsive-16by9">
-                                <video  controls="controls" muted>
-                                    <source src="media/videos/Kings Of Leon BGV.mp4" type="video/mp4"/>
+                            <h3>AROUND THE WORLD</h3>
+                            <hr>
+                            <div class="col-xs-12 video-div embed-responsive embed-responsive-16by9 ">
+                                <video class="media-video-container" controls="controls" muted>
+                                    <source src="media/videos/Kings Of Leon - Around The World.mp4" type="video/mp4"/>
                                 </video> 
                             </div>
-                            <div class="col-xs-12 embed-responsive embed-responsive-16by9">
-                                <video  controls="controls" muted>
-                                    <source src="media/videos/Kings Of Leon BGV.mp4" type="video/mp4"/>
+                            <h3>THE FINAL CHAPTER REVEREND</h3>
+                            <hr>
+                            <div class="col-xs-12 video-div embed-responsive embed-responsive-16by9 ">
+                                <video class="media-video-container" controls="controls" muted>
+                                    <source src="media/videos/Kings Of Leon - The Final Chapter Reverend.mp4" type="video/mp4"/>
                                 </video> 
                             </div>
-                            <div class="col-xs-12 embed-responsive embed-responsive-16by9">
-                                <video  controls="controls" muted>
-                                    <source src="media/videos/Kings Of Leon BGV.mp4" type="video/mp4"/>
-                                </video> 
-                            </div>
-                            
                         </div>
                     </div>
                 </div>

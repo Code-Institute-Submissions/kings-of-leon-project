@@ -23,8 +23,4 @@ angular.module('KOLApp').config(function($locationProvider, $routeProvider) {
         controller: 'AboutController'
     })
     
-    .when('/shop', {
-        templateUrl: 'templates/shop.html',
-        controller: 'ShopController'
-    });
 });

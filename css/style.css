@@ -1,10 +1,17 @@
 
 /*--------------------------- Elements ---------------------------*/
+a:hover,
+a:focus {
+    color: #e1576c;
+}
 
 body {
     font-family: Anton;
 }
 
+hr {
+    border-top: 1px solid #464646;
+}
 
 .btn-primary {
     color: #ffffff;
@@ -36,8 +43,13 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-   color:#464646; 
-   text-shadow: -1px 0 20px #f5c7ca, 0 1px 20px #f5c7ca, 1px 0 20px #f5c7ca, 0 -1px 20px #f5c7ca;
+   color:#f5c7ca; 
+   text-shadow: -1px 0 20px #464646, 0 1px 20px #464646, 1px 0 20px #464646, 0 -1px 20px #464646;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus {
+   color:#f5c7ca; 
+   text-shadow: -1px 0 20px #464646, 0 1px 20px #464646, 1px 0 20px #464646, 0 -1px 20px #464646;
 }
 
 .navbar-nav { 
@@ -62,6 +74,7 @@ body {
     background-color: #464646;
     color: #ffffff;
     padding-bottom: 10px;
+    margin-top: 50px;
 }
 
 .social li a i {
@@ -130,7 +143,7 @@ body {
 
 #overlay-text {
   color: #f5c7ca;
-  font-size: 50px;
+  font-size: 0px;
   text-align: center;
   text-shadow: -1px 0 20px #464646, 0 1px 20px #464646, 1px 0 20px #464646, 0 -1px 20px #464646;
   padding:5px;
@@ -149,6 +162,11 @@ body {
 }
 
 .container-headings {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.about-container-heading {
     margin-bottom: 35px;
 }
 
@@ -215,7 +233,7 @@ body {
 }
 
 #tour-header:hover {
-   color: #464646; 
+   color: #e1596d; 
    text-shadow: -1px 0 20px #ffffff, 0 1px 20px #ffffff, 1px 0 20px #ffffff, 0 -1px 20px #ffffff;
    text-decoration: none;
 }
@@ -225,8 +243,8 @@ body {
 }
 
 #about-header:hover {
-   color: #a6e1e9; 
-   text-shadow: -1px 0 20px #5a2c61, 0 1px 20px #5a2c61, 1px 0 20px #5a2c61, 0 -1px 20px #5a2c61;
+   color: #FFFFFF; 
+   text-shadow: -1px 0 20px #464646, 0 1px 20px #464646, 1px 0 20px #464646, 0 -1px 20px #464646;
    text-decoration: none;
 }
 
@@ -247,15 +265,16 @@ body {
     padding: 20px 0px;
 }
 
-/*--------------------------- Media ---------------------------*/
+/*--------------------------- Media Page ---------------------------*/
 
 .media-pg-container {
-    margin-top: 140px!important;
+    margin-top: 170px!important;
     margin-bottom: 35px;
 }
 
 .tab-content {
     height: auto;
+    margin-top: 50px;
 }
 
 #ul-nav {
@@ -264,8 +283,8 @@ body {
 
 #gallery-thumbnail-img {
     margin: 20px 0px;
-    width: 400px;
-    height: 200px;
+    width: auto;
+    height: 160px;
     box-shadow: 5px 5px 10px #888888;
     padding: 0px;
     border-radius: 10px;
@@ -277,13 +296,71 @@ body {
     font-size: 20px;
 }
 
+.media-video-container {
+    padding: 40px;
+}
+
+.audio-div {
+    margin-bottom:70px;
+}
+
+.video-div {
+    margin-bottom:70px;
+}
+
+.nav-tabs.nav-justified>li>a {
+    border-bottom: 1px solid #5a2c61;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+    border: 1px solid #5a2c61;
+}
+
+.nav-tabs.nav-justified>li>a:hover,
+.nav-tabs.nav-justified>li>a:focus{
+    background-color: #FFFFFF;
+    border-color: #f5c7ca;
+}
+
+/*--------------------------- Tours Page ---------------------------*/
+
+.panel-heading {
+    padding: 20px 30px;
+}
+
+.panel-title > a {
+    font-size: 22px;
+}
+
+.panel-primary>.panel-heading {
+    color: #ffffff;
+    background-color: #5a2c61;
+    border-color: #5a2c61;
+    border-radius:10px;
+}
+
+.panel-primary {
+    border-color: #ffffff;
+}
+
+.panel-primary>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #ffffff00;
+}
 
 /*--------------------------- Media Queries ---------------------------*/
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 576px) {
 
   #overlay-text {
-  font-size: 120px;
+  font-size: 50px;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  #overlay-text {
+  font-size: 110px;
 }
 
 html {
@@ -303,4 +380,10 @@ footer {
     width: 100%;
 }
 
+#gallery-thumbnail-img {
+    height: 230px;
 }
+
+}
+
+
