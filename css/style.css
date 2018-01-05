@@ -68,6 +68,11 @@ hr {
     height: 130px;
 }
 
+.navbar-opened{
+
+    background-color: rgba(70, 70, 70, 0.86)!important;
+}
+
 /*--------------------------- Footer ---------------------------*/
 
 #footer {
@@ -347,6 +352,24 @@ hr {
     border-top-color: #ffffff00;
 }
 
+/*--------------------------- About Page---------------------------*/
+
+.carousel-inner>.item>img {
+    width: 100%;
+}
+.carousel-caption {
+    color:#f5c7ca; 
+    text-shadow: -1px 0 20px #464646, 0 1px 20px #464646, 1px 0 20px #464646, 0 -1px 20px #464646;
+}
+
+.about-members-container {
+    margin: 50px;
+}
+
+.about-members {
+    padding: 0px 40px;
+}
+
 /*--------------------------- Media Queries ---------------------------*/
 
 @media only screen and (min-width: 576px) {
@@ -354,6 +377,7 @@ hr {
   #overlay-text {
   font-size: 50px;
 }
+
 
 }
 

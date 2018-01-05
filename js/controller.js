@@ -1,8 +1,20 @@
 var KOLApp = angular.module('RouteControllers', [])
     .controller('HomeController', function($scope) {
+        $('.navbar-nav>li>a').on('click',function() {
+        $('.navbar-collapse').collapse('hide');
+        });
+        $(".navbar-toggle").click(function(){
+        $("nav").toggleClass("navbar-opened");
+        });
         var video = document.getElementById("bg-video");
         video.playbackRate = 0.6; 
+        $('#bg-video').on('ended',function(){
+        $('#bg-video')[0].autoplay=false
+        $('#bg-video')[0].load();
         });
+        });
+        
+        
         
     KOLApp.controller('MediaController', function($scope) {    
        $scope.gallery = [
@@ -26,11 +38,13 @@ var KOLApp = angular.module('RouteControllers', [])
   	    
         ];
         
+        
+        
+        
         $('.nav-tabs li a').click(function (e) {
             e.preventDefault();
             $(this).tab('show');
             $('.tab-content > .tab-pane.active').jScrollPane();
         });
-                                        
     });
         
