@@ -169,7 +169,7 @@ hr {
 }
 
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .container-headings {
@@ -179,6 +179,8 @@ hr {
 
 .about-container-heading {
     margin-bottom: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .card-title {
@@ -203,14 +205,12 @@ hr {
     margin-bottom: 35px;
     background: -webkit-linear-gradient(left top, #e1576c, #edb9bc);
     padding-bottom: 35px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .about-container {
     margin-bottom: 35px;
-    padding-right: 40px;
-    padding-left: 40px;
 }
 
 #tours-image {
@@ -407,6 +407,10 @@ label {
   font-size: 50px;
 }
 
+.tours-container {
+    padding-right: 40px;
+    padding-left: 40px;
+}
 
 }
 
@@ -439,6 +443,10 @@ footer {
 
 .navbar-opened{
    background-color:rgba(70, 70, 70, .49)!important;
+}
+
+.card {
+    margin-bottom: 30px;
 }
 
 }
