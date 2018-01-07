@@ -194,6 +194,8 @@ hr {
 
 .media-container {
     margin-bottom: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .tours-container {
@@ -201,10 +203,14 @@ hr {
     margin-bottom: 35px;
     background: -webkit-linear-gradient(left top, #e1576c, #edb9bc);
     padding-bottom: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .about-container {
     margin-bottom: 35px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 #tours-image {
@@ -429,6 +435,10 @@ footer {
 
 #gallery-thumbnail-img {
     height: 230px;
+}
+
+.navbar-opened{
+   background-color:rgba(70, 70, 70, .49)!important;
 }
 
 }

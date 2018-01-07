@@ -8,6 +8,10 @@ var KOLApp = angular.module('RouteControllers', [])
         $("nav").toggleClass("navbar-opened");
         });
         
+        $(".navbar-nav>li>a").click(function(){
+        $("nav").toggleClass("navbar-opened");
+        });
+        
         var video = document.getElementById("bg-video");
         video.playbackRate = 0.6; 
         $('#bg-video').on('ended',function(){
