@@ -1,6 +1,10 @@
-<div class="container media-pg-container">
+<div class="container pg-container">
     <h1 class="text-center container-headings" style="color: #e1576c">TOURS</h1>
-    <div class="panel-group" id="accordion">
+    <div class="row">
+      <div class="col-sm-8" id="tour-accordion">
+          <h2 class="text-center"> CHECK OUT RELEASED DATES BELOW</h2>
+          <hr>
+       <div class="panel-group" id="accordion">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <h4 class="panel-title text-center">
@@ -141,4 +145,34 @@
             </div>
         </div>
     </div>
+  </div>
+  
+  <div class="col-sm-3 col-sm-offset-1">
+      <h2 class="text-center"> SIGN UP!</h2>
+          <hr>
+           <p class="text-center"> We'll email you tour date updates directly </p>
+      
+      <form onsubmit="return confirm('Do you really want to submit the form?');">
+  <div class="form-row">
+    <div class="col-xs-12">
+      <label for="validation1">First name</label>
+      <input type="text" class="form-control" id="validation1" placeholder="First Name"  required>
+    </div>
+    <div class="col-xs-12">
+      <label for="validation2">Last name</label>
+      <input type="text" class="form-control" id="validation2" placeholder="Last Name"  required>
+    </div>
+    <div class="col-xs-12">
+      <label for="validation3">City</label>
+      <input type="text" class="form-control" id="validation3" placeholder="City" required>
+    </div>
+    <div class="col-xs-12">
+      <label for="validation4">Email</label>
+      <input type="email" class="form-control" id="validation4" placeholder="Email" required>
+    </div>
+  </div>
+  <button class="btn btn-primary" id="form-btn" type="submit">Submit </button>
+</form>
+  </div>
+  </div>
 </div>

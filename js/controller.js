@@ -3,9 +3,11 @@ var KOLApp = angular.module('RouteControllers', [])
         $('.navbar-nav>li>a').on('click',function() {
         $('.navbar-collapse').collapse('hide');
         });
+        
         $(".navbar-toggle").click(function(){
         $("nav").toggleClass("navbar-opened");
         });
+        
         var video = document.getElementById("bg-video");
         video.playbackRate = 0.6; 
         $('#bg-video').on('ended',function(){
@@ -38,7 +40,7 @@ var KOLApp = angular.module('RouteControllers', [])
   	    
         ];
         
-        
+      
         
         
         $('.nav-tabs li a').click(function (e) {

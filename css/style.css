@@ -19,10 +19,16 @@ hr {
     border-color: #5a2c61;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
     color: #fff;
     background-color: #e1576c;
     border-color: #e1576c;
+}
+
+.pg-container {
+    margin-top: 170px!important;
+    margin-bottom: 35px;
 }
 
 /*--------------------------- Nav ---------------------------*/
@@ -267,15 +273,10 @@ hr {
 .about-hp-text {
     font-size: 16px;
     line-height: 33px;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
 /*--------------------------- Media Page ---------------------------*/
-
-.media-pg-container {
-    margin-top: 170px!important;
-    margin-bottom: 35px;
-}
 
 .tab-content {
     height: auto;
@@ -352,6 +353,28 @@ hr {
     border-top-color: #ffffff00;
 }
 
+label {
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+
+#form-btn {
+    margin: 20px;
+    padding: 10px;
+}
+
+#tour-accordion {
+    margin-bottom: 80px;
+}
+
+
+
+
 /*--------------------------- About Page---------------------------*/
 
 .carousel-inner>.item>img {
@@ -367,7 +390,7 @@ hr {
 }
 
 .about-members {
-    padding: 0px 40px;
+    padding: 0px 40px 40px 40px;
 }
 
 /*--------------------------- Media Queries ---------------------------*/
