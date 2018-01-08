@@ -40,8 +40,6 @@ var KOLApp = angular.module('RouteControllers', [])
   	    "media/images/kol-gallery-14.jpg",
   	    "media/images/kol-gallery-15.jpg",
   	    "media/images/kol-gallery-16.jpg",
-  	    
-  	    
         ];
         
       
