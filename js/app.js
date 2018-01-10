@@ -3,7 +3,7 @@ angular.module('KOLApp',['ngRoute', 'RouteControllers']);
 angular.module('KOLApp').config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);
     
-    $routeProvider.when('/', {
+    $routeProvider.when('/kings-of-leon-project/', {
         templateUrl: 'templates/home.html',
         controller: 'HomeController'
     })
