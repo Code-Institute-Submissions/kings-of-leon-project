@@ -63,7 +63,7 @@
     "tarball": "https://registry.npmjs.org/bower/-/bower-1.8.2.tgz"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.11.2"
     "npm" : ">=3.10.10"
   },
   "files": [
