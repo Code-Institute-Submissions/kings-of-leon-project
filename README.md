@@ -6,7 +6,7 @@ No template was used.
 
 ## Demo
 
-To view the live version of this website please follow this link
+To view the live version of this website please follow this link https://rcomiskey.github.io/kings-of-leon-project/
 
 ## Features
 
