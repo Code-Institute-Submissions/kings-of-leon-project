@@ -99,7 +99,19 @@ KOLApp.controller('MediaController', function($scope) {
 
 #### Home Page 
 
-![Home Page](media/images/home-page-wireframe)
+![Home Page](media/images/home-page-wireframe.png)
+
+#### Media Page 
+
+![Media Page](media/images/media-page-wireframe.png)
+
+#### Tours Page 
+
+![Tours Page](media/images/tours-page-wireframe.png)
+
+#### About Page 
+
+![About Page](media/images/about-page-wireframe.png)
 
 
 
