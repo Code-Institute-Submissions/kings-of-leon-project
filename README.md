@@ -94,3 +94,14 @@ KOLApp.controller('MediaController', function($scope) {
 - [Bower](https://bower.io/)
     - **Bower** was used to manage the installation of our libraries and frameworks
 
+
+## Wireframe/Mockup
+
+#### Home Page 
+
+![Home Page](media/images/home-page-wireframe)
+
+
+
+
+
