@@ -20,10 +20,6 @@ var KOLApp = angular.module('RouteControllers', [])
         });
         });
         
-        $scope.submit = function(event) {
-        event.preventDefault();
-        };
-            
         
         
     KOLApp.controller('MediaController', function($scope) {    
