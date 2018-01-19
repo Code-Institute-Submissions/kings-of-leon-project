@@ -152,7 +152,7 @@
           <hr>
            <p class="text-center"> We'll email you tour updates directly </p>
       
-      <form onsubmit="return confirm('Do you really want to submit the form?');">
+      <form ng-controller="HomeController" ng-submit="submit($event)">
   <div class="form-row">
     <div class="col-xs-12">
       <label for="validation1">First name</label>
